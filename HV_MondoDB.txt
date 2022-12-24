@@ -1,0 +1,9 @@
+1)	db.students.find({"submission": 1})
+
+2)  db.students.updateMany({"submission"=0},{$set:{ "Grade":"C"}})
+
+3) 	db.students.updateMany({"submission"=1},{$set:{ "Grade":"A"}})
+
+4)	db.students.insertOne({ "id": 812,"Name": "Rick","email":"e@e.com","submission":1,"grade":"N.A"})
+
+5)	db.students.updateOne({"Name"="sam"},{$set:{ "Department":"“MECHANICAL"}})
